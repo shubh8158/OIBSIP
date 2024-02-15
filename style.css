@@ -1,0 +1,52 @@
+.container{
+    width: 100%;
+    min-height: 100vh;
+    background:linear-gradient(135deg,yellow,blue);
+    color: red;
+    padding: 10px;
+    font-weight: 600;
+}
+.todo{
+    width: 100%;
+    max-width: 400px;
+    background: whitesmoke;
+    margin: 100px auto 30px;
+    padding: 30px 30px 50px;
+    border-radius: 10px;
+}
+.todo h2{
+    color: #0e316b;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+.todo h2 img{
+    width: 20px;
+    margin-left: 10px;
+}
+.row{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #b8ab8f;
+    border-radius: 10px;
+}
+input{
+    flex: 1;
+    border-radius: 5px;
+    outline: none;
+    border: none;
+    background: transparent;
+    padding: 10px;
+    font-weight: 600;
+}
+button{
+    border-radius: 10px;
+    border: none;
+    outline: none;
+    background:orangered;
+    font-size: 16px;
+    color: white;
+    padding: 16px 30px;
+}
